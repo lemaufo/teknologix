@@ -3,7 +3,7 @@
 @custom-variant dark (&:where(.dark, .dark *));
 
 @theme {
-  --color-primary: #1d4ed8;
+  --color-primary: #FF8623;
   --color-box-bg: rgb(var(--color-box));
   --color-box-shadow: rgb(var(--box-sd));
   --color-box-border: rgb(var(--box-border));
