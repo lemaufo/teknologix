@@ -41,31 +41,36 @@ const footerSupport = [
     },
 ]
 
-// const footerCompany = [
-//     {
-//         itemText:"About",
-//         itemLink:"/about"
-//     },
-//     {
-//         itemText:"Blog",
-//         itemLink:"#"
-//     },
-//     {
-//         itemText:"Jobs",
-//         itemLink:"#"
-//     },
-//     {
-//         itemText:"Parteners",
-//         itemLink:"#"
-//     },
-//     {
-//         itemText:"Jobs",
-//         itemLink:"#"
-//     }
-// ]
+const footerCompany = [
+    {
+        itemText:"Microsip",
+        itemLink:"https://www.microsip.com/"
+    },
+    {
+        itemText:"Factorial",
+        itemLink:"https://factorial.mx/"
+    },
+    {
+        itemText:"COPESA",
+        itemLink:"https://solucionescopesa.com/"
+    },
+    {
+        itemText:"Ve Mobile",
+        itemLink:"https://web.vemobile.mx/"
+    }
+]
+
 const footerLegal = [
     {
         itemText:"Aviso de privacidad",
+        itemLink:"#"
+    },
+    {
+        itemText:"Portal de Suscripción Microsip",
+        itemLink:"#"
+    },
+    {
+        itemText:"Club Microsip",
         itemLink:"#"
     }
 ]
@@ -141,10 +146,10 @@ const footerLegal = [
                 </div>
             </div>
 
-            <!-- <GroupFooterNav>
-                <FooterNav title={"Compañía"} navItems={footerCompany}/>
-                <FooterNav title={"Soluciones"} navItems={footerNav1}/>
-            </GroupFooterNav> -->
+            <GroupFooterNav>
+                <FooterNav title={"Partners"} navItems={footerCompany}/>
+               
+            </GroupFooterNav>
 
             <GroupFooterNav>
                 <FooterNav title={"Contacto"} navItems={footerSupport}/>
